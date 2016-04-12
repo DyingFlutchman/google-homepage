@@ -1,0 +1,41 @@
+UL.navigation{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+LI.nav{
+	display: inline-block
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+IMG.appicon {
+	width: 16px;
+	height: 16px;
+}
+
+IMG.logo {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-bottom: 20px;
+}
+
+INPUT.query{
+	width: 44%;
+	border: 1px solid #E0E0E0;
+	padding: 5px;
+	margin-right: 30px;
+	background-image: url("http://s18.postimg.org/n1w6ysf11/googlemic.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+INPUT.query:hover{
+	border: 1px solid #4d4d4d;
+}
+
+INPUT.query:focus{
+	border: 1px solid #42A5F5
+}
