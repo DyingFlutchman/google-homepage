@@ -2,12 +2,32 @@ UL.navigation{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
+	text-align: right;
+	font-size: 70%;
 }
 
-LI.nav{
-	display: inline-block
-	margin-left: 10px;
+LI.navB{
+	display: inline-block;
+	vertical-align: 50%;
+	margin-left: 5px;
 	margin-right: 10px;
+	width: 50px;
+	text-align: center;
+}
+
+LI.navG{
+	display: inline-block;
+	vertical-align: 50%;
+	margin-left: 5px;
+	margin-right: 5px;
+	width: 30px;
+    color: #b3b3b3;
+}
+
+LI.navimg{
+	display: inline-block;
+	margin-left: 10px;
+	width: 30px;
 }
 
 IMG.appicon {
@@ -16,11 +36,62 @@ IMG.appicon {
 }
 
 IMG.logo {
+	margin-top: 18%;
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
 	padding-bottom: 20px;
 }
+
+DIV.searchbuttons{
+	align: center;
+}
+
+UL.buttons{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 70%;
+	padding-top: 20px;
+}
+
+LI.button{
+	display: inline-block;
+	width: 14%;
+	text-align: center;
+	vertical-align: center;
+}
+
+BUTTON.button{
+	background-color: #f2f2f2;
+	border: none;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	padding-right: 7px;
+	padding-left: 7px;
+}
+
+BUTTON.button:hover{
+	border: 1px solid #E0E0E0;
+	color: black;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
+INPUT.query:focus{
+	border: 1px solid #42A5F5;
+    color: black;
+	font-weight: normal;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-right: 6px;
+	padding-left: 6px;
+}
+
 
 INPUT.query{
 	width: 44%;
